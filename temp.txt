@@ -1,0 +1,14 @@
+Hello world!
+Папка C:\Users\B\Desktop\Games1 успешно создана.
+Папка C:\Users\B\Desktop\Games1\src успешно создана.
+Папка C:\Users\B\Desktop\Games1\res успешно создана.
+Папка C:\Users\B\Desktop\Games1\savegames успешно создана.
+Папка C:\Users\B\Desktop\Games1\temp успешно создана.
+Папка C:\Users\B\Desktop\Games1\src\main успешно создана.
+Папка C:\Users\B\Desktop\Games1\src\test успешно создана.
+Папка C:\Users\B\Desktop\Games1\res\drawables успешно создана.
+Папка C:\Users\B\Desktop\Games1\res\vectors успешно создана.
+Папка C:\Users\B\Desktop\Games1\res\icons успешно создана.
+Файл C:\Users\B\Desktop\Games1\src\main\Main.java успешно создан.
+Файл C:\Users\B\Desktop\Games1\src\main\Utils.java успешно создан.
+Файл C:\Users\B\Desktop\Games1\temp\temp.txt. успешно создан.
