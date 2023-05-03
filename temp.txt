@@ -1,4 +1,3 @@
-Hello world!
 Папка C:\Users\B\Desktop\Games1 успешно создана.
 Папка C:\Users\B\Desktop\Games1\src успешно создана.
 Папка C:\Users\B\Desktop\Games1\res успешно создана.

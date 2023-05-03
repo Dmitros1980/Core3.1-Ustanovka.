@@ -20,35 +20,14 @@ public class Main {
                 "C:\\Users\\B\\Desktop\\Games1\\src\\main\\Utils.java",
                 "C:\\Users\\B\\Desktop\\Games1\\temp\\temp.txt."
         };
-        for (int i=0;i<addressFolder.length;i++){
+        for (int i = 0; i < addressFolder.length; i++) {
             CreateFolder.createFolder(addressFolder[i]);
         }
-          for (int j=0;j<addressFile.length;j++){
-              CreateFolder.createFale(addressFile[j]);
-          }
-        builder.append(
-                "Hello world!\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1 успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\src успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\res успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\savegames успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\temp успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\src\\main успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\src\\test успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\res\\drawables успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\res\\vectors успешно создана.\n" +
-                        "Папка C:\\Users\\B\\Desktop\\Games1\\res\\icons успешно создана.\n" +
-                        "Файл C:\\Users\\B\\Desktop\\Games1\\src\\main\\Main.java успешно создан.\n" +
-                        "Файл C:\\Users\\B\\Desktop\\Games1\\src\\main\\Utils.java успешно создан.\n" +
-                        "Файл C:\\Users\\B\\Desktop\\Games1\\temp\\temp.txt. успешно создан.");
-        try (FileWriter writer = new FileWriter("temp.txt")) {
-            writer.write(builder.toString());
-            writer.flush();
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-
-
+        for (int j = 0; j < addressFile.length; j++) {
+            CreateFolder.createFale(addressFile[j]);
         }
 
     }
+
 }
+
